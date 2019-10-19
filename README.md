@@ -1,24 +1,5 @@
-# omniform
+# Vue OmniForm
 
-## Project setup
-```
-npm install
-```
+Build Vue forms generated with JSON/YAML.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The `OmniForm` component provided by this package also provides a RESTful way of posting the form to a remote server using Axios.

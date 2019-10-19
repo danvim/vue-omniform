@@ -1,7 +1,20 @@
 {
   "name": "vue-omniform",
+  "description": "Build Vue forms generated with JSON/YAML.",
   "version": "0.1.0",
-  "private": true,
+  "keywords": [
+    "vue"
+  ],
+  "author": {
+    "name": "danvim"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/danvim/vue-omniform.git"
+    }
+  ],
+  "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
