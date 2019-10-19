@@ -1,22 +1,44 @@
 {
-  "name": "omniform",
+  "name": "vue-omniform",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build-bundle": "vue-cli-service build --target lib --name VueOmniForm ./src/index.js",
+    "lint": "vue-cli-service lint",
+    "fix": "vue-cli-service lint --fix"
   },
+  "main": "./dist/omniForm.umd.min.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
+    "axios": "^0.19.0",
     "core-js": "^3.1.2",
-    "vue": "^2.6.10"
+    "lodash": "^4.17.15",
+    "popper.js": "^1.16.0",
+    "vue": "^2.6.10",
+    "vue-bootstrap-datetimepicker": "^5.0.1",
+    "vue-markdown": "^2.2.4",
+    "vue-select": "^3.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
     "@vue/cli-plugin-eslint": "^4.0.0",
     "@vue/cli-service": "^4.0.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   }
