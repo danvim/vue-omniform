@@ -8,12 +8,10 @@
   "author": {
     "name": "danvim"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/danvim/vue-omniform.git"
-    }
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danvim/vue-omniform.git"
+  },
   "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -31,14 +29,17 @@
     "*.js"
   ],
   "dependencies": {
-    "axios": "^0.19.0",
-    "core-js": "^3.1.2",
-    "lodash": "^4.17.15",
-    "popper.js": "^1.16.0",
-    "vue": "^2.6.10",
-    "vue-bootstrap-datetimepicker": "^5.0.1",
-    "vue-markdown": "^2.2.4",
-    "vue-select": "^3.2.0"
+    "lodash.debounce": "^4.x",
+    "lodash.defaults": "^4.x",
+    "lodash.isequal": "^4.x"
+  },
+  "peerDependencies": {
+    "axios": "0.x",
+    "popper.js": "1.x",
+    "vue": "2.x",
+    "vue-bootstrap-datetimepicker": "5.x",
+    "vue-markdown": "2.x",
+    "vue-select": "3.x"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
@@ -53,6 +54,12 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "axios": "^0.19.0",
+    "vue-bootstrap-datetimepicker": "^5.0.1",
+    "vue-markdown": "^2.2.4",
+    "vue-select": "^3.2.0",
+    "vue": "^2.6.10",
+    "popper.js": "^1.16.0"
   }
 }

@@ -65,7 +65,7 @@ import DEFAULT_SETTINGS from '../utils/DEFAULT_OMNI_ROW_SETTINGS'
 import ErrorDisplay from './ErrorDisplay'
 import axios from 'axios'
 import { defaultValues } from '../utils/DefaultValues'
-import { defaults } from 'lodash'
+import defaults from 'lodash.defaults'
 
 export default {
   name: 'OmniForm',

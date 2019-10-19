@@ -1,5 +1,5 @@
 import DEFAULT_SETTINGS from './DEFAULT_OMNI_ROW_SETTINGS'
-import { defaults } from 'lodash'
+import defaults from 'lodash.defaults'
 
 const defaultTypeValues = (field) => {
   if (field.type === 'input-trans' || field.type === 'editor-trans') {

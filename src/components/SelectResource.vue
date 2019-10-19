@@ -30,7 +30,8 @@
 <script>
 import vSelect from 'vue-select'
 import axios from 'axios'
-import { debounce, isEqual } from 'lodash'
+import debounce from 'lodash.debounce'
+import isEqual from 'lodash.isequal'
 export default {
   name: 'SelectResource',
   components: { vSelect },
