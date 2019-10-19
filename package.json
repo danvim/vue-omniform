@@ -1,7 +1,7 @@
 {
   "name": "vue-omniform",
   "description": "Build Vue forms generated with JSON/YAML.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "vue"
   ],
