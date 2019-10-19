@@ -1,9 +1,10 @@
 {
   "name": "vue-omniform",
-  "description": "Build Vue forms generated with JSON/YAML.",
+  "description": "Bootstrap Vue forms generated with JSON/YAML.",
   "version": "0.1.1",
   "keywords": [
-    "vue"
+    "vue",
+    "bootstrap"
   ],
   "author": {
     "name": "danvim"
