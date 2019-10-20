@@ -152,7 +152,7 @@ export default {
   created () {
     this.transformers.__identity = this.transformers.__identity || ((i) => i)
     this.transformers.mapId = this.transformers.mapId || ((i) => i.map((j) => j.id))
-    this.transformers.id = this.transformers.idd || ((i) => i.id)
+    this.transformers.id = this.transformers.id || ((i) => i.id)
 
     this.transformed = this.defaultTransformed || defaultValues(this.fields)
     this.m = this.model || defaultValues(this.fields)
