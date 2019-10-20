@@ -116,7 +116,10 @@ This form, without further customization to the post content, will default to po
 
 ```json
 {
-  "post_name": "",
+  "post_name": {
+    "zh-TW": "",
+    "en": ""
+  },
   "post_slug": ""
 }
 ```
