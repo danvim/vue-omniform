@@ -12,6 +12,8 @@ npm i -D vue-omniform
 
 ***Documentation WIP***
 
+***Some docs are available in Wiki***
+
 ## Webkit
 
 In a webkit project, it is suggested that the form template be saved in a separate `.json` or `.yaml` file and loaded in the needed `.vue` SFC.
